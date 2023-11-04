@@ -31,7 +31,7 @@ fileprivate struct ShimmerEffectHelper: ViewModifier {
                     .overlay {
                         GeometryReader {
                             let size = $0.size
-                            let extraOffset = size .height / 2.5
+                            let extraOffset = size.height / 2.5
                             Rectangle()
                                 .fill(config.hightlight)
                                 .mask {
