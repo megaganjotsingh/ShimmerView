@@ -40,7 +40,7 @@ fileprivate struct ShimmerEffectHelper: ViewModifier {
                                             .linearGradient(colors:  [.white.opacity(0), config.hightlight.opacity(config.hightlightOpacity), .white.opacity(0)], startPoint: .top, endPoint: .bottom)
                                         )
                                         .blur(radius: config.blur)
-                                        .scaleEffect(1.5)
+                                        .scaleEffect(1.4)
                                         .rotationEffect(.degrees(-70))
                                         .offset(x: moveTo > 0 ? extraOffset : -extraOffset)
                                         .offset(x: size.width * moveTo)
